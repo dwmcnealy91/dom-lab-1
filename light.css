@@ -1,0 +1,16 @@
+div {
+    border: 1px solid black;
+    width: 9em;
+    border-radius: 8px;
+    background-color: darkgray;
+    color: white;
+    padding: 5px;
+}
+
+button {
+    background-color: grey;
+}
+
+.light {
+    background-color: green;
+}
