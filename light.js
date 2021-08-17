@@ -22,7 +22,7 @@ function end () {
     }
  }   
 
-    //how emilie does it
+    //other way to do it
 
     //let lightBulb = document.querySelector("div");
     //let on = document.getElementById("on");
@@ -35,15 +35,11 @@ function end () {
     //    lightBulb.classList.add("light");
     //});
     //of.addEventListener("click",() => {
-    //    lightBulb.classList.add("light");
+    //    lightBulb.classList.remove("light");
     //});
     //toggle.addEventListener("click",() => {
-    //    lightBulb.classList.add("light");
+    //    lightBulb.classList.toggle("light");
     //});
-    //end.addEventListener("click",() => {
-    //    lightBulb.classList.add("light");
-    //});
-
     //end.addEventListener("click", () => {
     //    buttons.forEach((button) => {
     //      button.disabled = true;

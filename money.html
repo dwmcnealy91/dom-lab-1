@@ -8,29 +8,24 @@
     <link rel="stylesheet" href="money.css">
 </head>
 <body>
-<form>
+<form id="money-form">
     <label for="number">How many?</label>
     <input for="number" type="number" id="number">
    
     <label for="select">Which coin?</label>
     <select name="coins" id="select" >
-        <option value="0.01">Penny</option>
-        <option value="0.05">Nickel</option>
-        <option value="0.10">Dime</option>
-        <option value="0.25">Quarter</option>
+        <option>Penny</option>
+        <option>Nickel</option>
+        <option>Dime</option>
+        <option>Quarter</option>
       </select>
+      
+      <div class="button"><button>Make Money!</button></div>
 </form>
 
-
-      <button>Make Money!</button>
-
     <section class="coin-section"> 
-      <div class="penny coin">Penny</div>
-      <div class="nickel coin">Nickel</div>
-      <div class="dime coin">Dime</div>
-      <div class="quarter coin">Quarter</div>
-    </section>
 
+    </section>
 
     <script src="money.js"></script>
 </body>
